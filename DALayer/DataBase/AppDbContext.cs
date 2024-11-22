@@ -1,13 +1,14 @@
-﻿using FishingAndCyclingApp.Models;
+﻿
+using DomainLayer.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace FishingAndCyclingApp.Data
+namespace DALayer.DataBase
 {
     public class AppDbContext : DbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        public DbSet<Models.Route> Routes { get; set; }
+        public DbSet<BikeRoute> Routes { get; set; }
         public DbSet<FishingSpot> FishingSpots { get; set; }
         public DbSet<User> Users { get; set; }
     }

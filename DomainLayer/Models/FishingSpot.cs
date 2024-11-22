@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace FishingAndCyclingApp.Models
+namespace DomainLayer.Models
 {
     public class FishingSpot
     {

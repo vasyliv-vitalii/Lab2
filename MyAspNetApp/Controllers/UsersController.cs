@@ -4,6 +4,9 @@ using FishingAndCyclingApp.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using AutoMapper;
+using DomainLayer.Abstarction.ICommandRepositories;
+using DomainLayer.Abstarction.IQueryRepositories;
 
 namespace FishingAndCyclingApp.Controllers
 {
@@ -11,24 +14,23 @@ namespace FishingAndCyclingApp.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        private readonly IRepository<User> _userRepository;
+        private readonly IUserCommandRepository _userCommandRepository;
+        private readonly IUserQueryRepository _userQueryRepository;
+        private readonly IMapper _mapper;
 
-        public UsersController(IRepository<User> userRepository)
+        public UsersController( IUserQueryRepository userQueryRepository,
+            IUserCommandRepository userCommandRepository, IMapper mapper)
         {
-            _userRepository = userRepository;
+            _userQueryRepository = userQueryRepository;
+            _userCommandRepository = userCommandRepository;
+            _mapper = mapper;
         }
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<UserDto>>> GetUsers()
         {
-            var users = await _userRepository.GetAllAsync();
-            var userDtos = users.Select(u => new UserDto
-            {
-                Id = u.Id,
-                Username = u.Username,
-                Email = u.Email,
-                Role = u.Role
-            }).ToList();
+            var users = await _userQueryRepository.GetAllUsers();
+            var userDtos = _mapper.Map<List<UserDto>>(users);
 
             return Ok(userDtos);
         }
@@ -36,7 +38,7 @@ namespace FishingAndCyclingApp.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<UserDto>> GetUser(int id)
         {
-            var user = await _userRepository.GetByIdAsync(id);
+            var user = await _userQueryRepository.GetByIdAsync(id);
             if (user == null)
             {
                 return NotFound();

@@ -1,8 +1,8 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace FishingAndCyclingApp.Models
+namespace DomainLayer.Models
 {
-    public class Route
+    public class BikeRoute
     {
         [Key]
         public int Id { get; set; }

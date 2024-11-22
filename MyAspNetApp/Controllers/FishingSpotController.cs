@@ -1,10 +1,5 @@
 using FishingAndCyclingApp.DTOs;
-using FishingAndCyclingApp.Models;
-using FishingAndCyclingApp.Repositories;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace FishingAndCyclingApp.Controllers
 {

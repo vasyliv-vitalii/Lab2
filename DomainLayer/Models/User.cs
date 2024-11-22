@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace FishingAndCyclingApp.Models
+namespace DomainLayer.Models
 {
     public class User
     {
@@ -12,7 +12,7 @@ namespace FishingAndCyclingApp.Models
         [EmailAddress]
         public string Email { get; set; }
         public string Role { get; set; }
-        public List<Route> SubscribedRoutes { get; set; } = new List<Route>();
+        public List<BikeRoute> SubscribedRoutes { get; set; } = new List<BikeRoute>();
         public List<FishingSpot> SubscribedFishingSpots { get; set; } = new List<FishingSpot>();
     }
 }

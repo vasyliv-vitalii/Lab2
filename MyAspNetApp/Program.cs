@@ -1,14 +1,11 @@
-using FishingAndCyclingApp.Data;
-using FishingAndCyclingApp.Extensions;
-using FishingAndCyclingApp.Models;
-using FishingAndCyclingApp.Repositories;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
+using DALayer.CommandRepositories;
+using DALayer.DataBase;
+using DALayer.QueryRepositories;
+using DomainLayer.Abstarction.ICommandRepositories;
+using DomainLayer.Abstarction.IQueryRepositories;
 
 namespace FishingAndCyclingApp
 {
@@ -26,11 +23,8 @@ namespace FishingAndCyclingApp
                 options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             // Add repository services (make sure these interfaces and implementations are defined in your project)
-            builder.Services.AddScoped<IUserRepository, UserRepository>();
-            builder.Services.AddScoped<IRouteRepository, RouteRepository>();
-            builder.Services.AddScoped<IFishingSpotRepository, FishingSpotRepository>();
-
-            // Add AutoMapper for mapping DTOs and entities (if needed)
+            builder.Services.AddScoped<IUserCommandRepository, UserCommandRepository>();
+            builder.Services.AddScoped<IUserQueryRepository, UserQueryRepository>();
 
             builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
    
@@ -52,7 +46,6 @@ namespace FishingAndCyclingApp
             app.UseHttpsRedirection();
             app.UseAuthorization();
 
-            // Enable Swagger and Swagger UI
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
@@ -60,10 +53,8 @@ namespace FishingAndCyclingApp
                 c.RoutePrefix = string.Empty; // Set Swagger UI at the app's root
             });
 
-            // Map controllers (this automatically maps the API controllers to routes)
             app.MapControllers();
 
-            // Run the application
             app.Run();
         }
     }
