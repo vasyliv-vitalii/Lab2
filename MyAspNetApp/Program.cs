@@ -14,13 +14,18 @@ namespace FishingAndCyclingApp
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            ConfigurationManager config = builder.Configuration;
 
             // Add services to the container.
             builder.Services.AddControllers();
 
             // Add DbContext for SQLite, make sure "DefaultConnection" is correctly set in your appsettings.json
             builder.Services.AddDbContext<AppDbContext>(options =>
-                options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+            {
+                options.UseNpgsql(config.GetConnectionString("Default"));
+                options.EnableSensitiveDataLogging();
+                options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
+            });
 
             // Add repository services (make sure these interfaces and implementations are defined in your project)
             builder.Services.AddScoped<IUserCommandRepository, UserCommandRepository>();

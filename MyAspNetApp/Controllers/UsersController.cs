@@ -1,9 +1,5 @@
 using FishingAndCyclingApp.DTOs;
-using FishingAndCyclingApp.Models;
-using FishingAndCyclingApp.Repositories;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using AutoMapper;
 using DomainLayer.Abstarction.ICommandRepositories;
 using DomainLayer.Abstarction.IQueryRepositories;
@@ -38,7 +34,7 @@ namespace FishingAndCyclingApp.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<UserDto>> GetUser(int id)
         {
-            var user = await _userQueryRepository.GetByIdAsync(id);
+            var user = await _userQueryRepository.GetUserById(id);
             if (user == null)
             {
                 return NotFound();
@@ -56,53 +52,24 @@ namespace FishingAndCyclingApp.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<UserDto>> CreateUser(UserDto userDto)
+        public async Task<ActionResult<UserDto>> CreateUser(CreateUpdateUserDto userDto)
         {
             // Тут може бути валідація
-            var user = new User
-            {
-                Username = userDto.Username,
-                Email = userDto.Email,
-                Role = userDto.Role
-            };
-
-            await _userRepository.AddAsync(user);
-
-            userDto.Id = user.Id;
-
-            return CreatedAtAction(nameof(GetUser), new { id = userDto.Id }, userDto);
+            throw new NotImplementedException();
         }
 
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateUser(int id, UserDto userDto)
         {
-            var user = await _userRepository.GetByIdAsync(id);
-            if (user == null)
-            {
-                return NotFound();
-            }
-
-            user.Username = userDto.Username;
-            user.Email = userDto.Email;
-            user.Role = userDto.Role;
-
-            await _userRepository.UpdateAsync(user);
-
-            return NoContent();
+            
+            throw new NotImplementedException();
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUser(int id)
         {
-            var user = await _userRepository.GetByIdAsync(id);
-            if (user == null)
-            {
-                return NotFound();
-            }
-
-            await _userRepository.DeleteAsync(id);
-
-            return NoContent();
+            
+            throw new NotImplementedException();
         }
     }
 }
