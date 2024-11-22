@@ -1,0 +1,374 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\webForKPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\repositories\\ifishingspotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\repositories\\ifishingspotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\repositories\\irouterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\repositories\\irouterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\repositories\\fishingspotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\repositories\\fishingspotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\repositories\\routerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\repositories\\routerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\dtos\\routedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\dtos\\routedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\controllers\\routescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\controllers\\routescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\controllers\\fishingspotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\controllers\\fishingspotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\extentions\\automapperextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\extentions\\automapperextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\dtos\\fishingspotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\dtos\\fishingspotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\models\\fishingspot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\models\\fishingspot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\models\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\models\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\database\\app.db||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\database\\app.db||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IFishingSpotRepository.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Repositories\\IFishingSpotRepository.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Repositories\\IFishingSpotRepository.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Repositories\\IFishingSpotRepository.cs",
+              "RelativeToolTip": "MyAspNetApp\\Repositories\\IFishingSpotRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:58:17.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "MyAspNetApp\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:55:09.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FishingSpotRepository.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Repositories\\FishingSpotRepository.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Repositories\\FishingSpotRepository.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Repositories\\FishingSpotRepository.cs",
+              "RelativeToolTip": "MyAspNetApp\\Repositories\\FishingSpotRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:56:33.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RouteRepository.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Repositories\\RouteRepository.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Repositories\\RouteRepository.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Repositories\\RouteRepository.cs",
+              "RelativeToolTip": "MyAspNetApp\\Repositories\\RouteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:55:53.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Repositories\\Repository.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Repositories\\Repository.cs",
+              "RelativeToolTip": "MyAspNetApp\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:52:38.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Repositories\\IUserRepository.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "MyAspNetApp\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:57:34.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRouteRepository.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Repositories\\IRouteRepository.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Repositories\\IRouteRepository.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Repositories\\IRouteRepository.cs",
+              "RelativeToolTip": "MyAspNetApp\\Repositories\\IRouteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:57:55.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Program.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Program.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Program.cs*",
+              "RelativeToolTip": "MyAspNetApp\\Program.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA6wCAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:49:13.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RouteDTO.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\DTOs\\RouteDTO.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\DTOs\\RouteDTO.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\DTOs\\RouteDTO.cs",
+              "RelativeToolTip": "MyAspNetApp\\DTOs\\RouteDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:44:25.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Repositories\\IRepository.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "MyAspNetApp\\Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:53:49.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AutoMapperExtensions.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Extentions\\AutoMapperExtensions.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Extentions\\AutoMapperExtensions.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Extentions\\AutoMapperExtensions.cs",
+              "RelativeToolTip": "MyAspNetApp\\Extentions\\AutoMapperExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:46:49.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\controllers\\UsersController.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\controllers\\UsersController.cs",
+              "RelativeToolTip": "MyAspNetApp\\controllers\\UsersController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T18:04:08.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RoutesController.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\controllers\\RoutesController.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\controllers\\RoutesController.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\controllers\\RoutesController.cs",
+              "RelativeToolTip": "MyAspNetApp\\controllers\\RoutesController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwAQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T18:04:13.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FishingSpotController.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\controllers\\FishingSpotController.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\controllers\\FishingSpotController.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\controllers\\FishingSpotController.cs",
+              "RelativeToolTip": "MyAspNetApp\\controllers\\FishingSpotController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAmwFgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T18:08:21.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FishingSpotDTO.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\DTOs\\FishingSpotDTO.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\DTOs\\FishingSpotDTO.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\DTOs\\FishingSpotDTO.cs",
+              "RelativeToolTip": "MyAspNetApp\\DTOs\\FishingSpotDTO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:44:48.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\DTOs\\UserDTO.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "MyAspNetApp\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:43:43.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\models\\User.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\models\\User.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\models\\User.cs",
+              "RelativeToolTip": "MyAspNetApp\\models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:15:08.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Route.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\models\\Route.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\models\\Route.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\models\\Route.cs",
+              "RelativeToolTip": "MyAspNetApp\\models\\Route.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:14:49.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\DataBase\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\DataBase\\AppDbContext.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\DataBase\\AppDbContext.cs",
+              "RelativeToolTip": "MyAspNetApp\\DataBase\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:08:29.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "app.db",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\DataBase\\app.db",
+              "RelativeDocumentMoniker": "MyAspNetApp\\DataBase\\app.db",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\DataBase\\app.db",
+              "RelativeToolTip": "MyAspNetApp\\DataBase\\app.db",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMuSURBVEhLtVVrS1RBGH4sV5S8rWUiUd6DkC3TXAhR11uZ9CHJrC0KCoKk\u002Bg1Ff6BS64MaWXkrN6PCRLQ2KQMltdQSNV1XrCBLN0vd\u002BzQz55zVXVc8ffCBZ9457\u002B2ZmXPDuoIQ4iNOOWpra6mLMP8qZDVO0Qo\u002BhUJhslgsWSUlFz6IbVZHTU0NcTgcbrRLtEu0c\u002Bt0OkldXR0xGo2kqurObPmt20liGzdsEC0HWxEDLYaD0cHocJEKuchyGJRKJXLzckP9/BT60rLyFSJeBfgoTGUhjIocyMvjIqLLBa8CS809ryUsOSoqKjh1Oh3MZkuo6PaO6upqfu5Wq43SSoZGRklzazuZ/jlDbRsZMxiJ2WKltBDajCy6aCY2m51cv3FzxVJW7IBlsJHZdn0HfBT\u002BaNA1gWz0Q3dPL89bAbGt6wSWwesRff32HU3Pmukj6IfouHhk5xcgKjYOpt9zqLx7H\u002BMGo9STYtlsbQE2AEPDo1CGRyArLx/9fT3o1Ldj8GMf0jTZiKKC4xNGoUCE1FaGAH306KunTtmL0aHPdO6DudlfOHPyBP6YTDTkA\u002BPYFxpPliqWulPI3kH3\u002B14k7Epk/REStgX36hoQFKrk4tHxCUv3wr2/HAEhISYmmu7gE161tiApZR8ycw5iT3IK3upf4q9pBnOUZaWl6Oru4vkChE\u002BHJ7wIEMRG78D5s6cREhwEAz2SthfPMTE\u002BBrvNxt/o\u002BNR0ZGvPYUNkHB48bBRqXfXu8LoDvnXKVHov7IvzOH60EE7LIsI3hyJRnQbV9q0YedOKlKgI7NyvwUB/v1AmR4ClSGnbIiORo8lAUFAgtemYNBjgHxCAJ7pH0Gq1ePq4EcGBm9DR8ZrnryngdEsQpZiPCVOTqcmE1WxG4bFi1NfX40hRMRbmF5CRqREq1hLgCSxHbOi65FFApdqNwe5ODE9NQ6U5hIHJHxh6p6d\u002BFY/LE2CWj95ReLgAs8YRtNRUYmFqFKeKi8SI5wkI8H6TPUH9LMZJL9VqNS5eusytG\u002BQJUDIrNWQUwmtC1g5Yiq/Cl1PxH5TqPeH202ffc9eqZZCvWLSS79rVK2491xnAP3rCRRQmN3FcAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-11-22T17:07:32.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\appsettings.json",
+              "RelativeDocumentMoniker": "MyAspNetApp\\appsettings.json",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\appsettings.json",
+              "RelativeToolTip": "MyAspNetApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-22T17:07:03.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FishingSpot.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\models\\FishingSpot.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\models\\FishingSpot.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\models\\FishingSpot.cs",
+              "RelativeToolTip": "MyAspNetApp\\models\\FishingSpot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T16:51:46.707Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
