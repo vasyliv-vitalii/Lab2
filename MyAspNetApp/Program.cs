@@ -1,11 +1,13 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
+using BLLayer.Services;
 using DALayer.CommandRepositories;
 using DALayer.DataBase;
 using DALayer.QueryRepositories;
 using DomainLayer.Abstarction.ICommandRepositories;
 using DomainLayer.Abstarction.IQueryRepositories;
+using DomainLayer.Abstarction.IServices;
 
 namespace FishingAndCyclingApp
 {
@@ -30,6 +32,7 @@ namespace FishingAndCyclingApp
             // Add repository services (make sure these interfaces and implementations are defined in your project)
             builder.Services.AddScoped<IUserCommandRepository, UserCommandRepository>();
             builder.Services.AddScoped<IUserQueryRepository, UserQueryRepository>();
+            builder.Services.AddScoped<IUserService, UserService>();
 
             builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
    
