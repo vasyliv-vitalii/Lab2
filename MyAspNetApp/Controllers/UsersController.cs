@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using AutoMapper;
 using DomainLayer.Abstarction.ICommandRepositories;
 using DomainLayer.Abstarction.IQueryRepositories;
+using FishingAndCyclingApp.Validators;
 
 namespace FishingAndCyclingApp.Controllers
 {
@@ -54,7 +55,7 @@ namespace FishingAndCyclingApp.Controllers
         [HttpPost]
         public async Task<ActionResult<UserDto>> CreateUser(CreateUpdateUserDto userDto)
         {
-            // Тут може бути валідація
+            UserCreateUpdateDtoValidator.ValidateDto(userDto);
             throw new NotImplementedException();
         }
 
