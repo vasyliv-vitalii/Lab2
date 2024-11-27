@@ -1,0 +1,16 @@
+D:\lab2\Lab2\BLLayer\bin\Debug\net8.0\BLLayer.deps.json
+D:\lab2\Lab2\BLLayer\bin\Debug\net8.0\BLLayer.dll
+D:\lab2\Lab2\BLLayer\bin\Debug\net8.0\BLLayer.pdb
+D:\lab2\Lab2\BLLayer\bin\Debug\net8.0\DomainLayer.dll
+D:\lab2\Lab2\BLLayer\bin\Debug\net8.0\DomainLayer.pdb
+D:\lab2\Lab2\BLLayer\obj\Debug\net8.0\BLLayer.csproj.AssemblyReference.cache
+D:\lab2\Lab2\BLLayer\obj\Debug\net8.0\BLLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\lab2\Lab2\BLLayer\obj\Debug\net8.0\BLLayer.AssemblyInfoInputs.cache
+D:\lab2\Lab2\BLLayer\obj\Debug\net8.0\BLLayer.AssemblyInfo.cs
+D:\lab2\Lab2\BLLayer\obj\Debug\net8.0\BLLayer.csproj.CoreCompileInputs.cache
+D:\lab2\Lab2\BLLayer\obj\Debug\net8.0\BLLayer.sourcelink.json
+D:\lab2\Lab2\BLLayer\obj\Debug\net8.0\BLLayer.csproj.Up2Date
+D:\lab2\Lab2\BLLayer\obj\Debug\net8.0\BLLayer.dll
+D:\lab2\Lab2\BLLayer\obj\Debug\net8.0\refint\BLLayer.dll
+D:\lab2\Lab2\BLLayer\obj\Debug\net8.0\BLLayer.pdb
+D:\lab2\Lab2\BLLayer\obj\Debug\net8.0\ref\BLLayer.dll

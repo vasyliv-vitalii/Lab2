@@ -34,6 +34,16 @@ namespace FishingAndCyclingApp
             builder.Services.AddScoped<IUserQueryRepository, UserQueryRepository>();
             builder.Services.AddScoped<IUserService, UserService>();
 
+            
+            builder.Services.AddScoped<IFishingSpotCommandRepository, FishingSpotCommandRepository>();
+            builder.Services.AddScoped<IFishingSpotQueryRepository, FishingSpotQueryRepository>();
+            builder.Services.AddScoped<IFishingSpotServise, FishingSpotService>();
+
+            
+            builder.Services.AddScoped<IBikeRouteCommandRepository, BikeRouteCommandRepository>();
+            builder.Services.AddScoped<IBikeRouteQueryRepository, BikeRouteQueryRepository>();
+            builder.Services.AddScoped<IBikeRouteService, BikeRouteService>();
+
             builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
    
 

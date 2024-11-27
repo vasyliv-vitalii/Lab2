@@ -9,15 +9,7 @@
         public float Rating { get; set; }
     }
 
-    public class CreateFishingSpotDto
-    {
-        public string Name { get; set; }
-        public string Coordinates { get; set; }
-        public List<string> FishTypes { get; set; }
-        public float Rating { get; set; }
-    }
-
-    public class UpdateFishingSpotDto
+    public class CreateUpdateFishingSpotDto
     {
         public string Name { get; set; }
         public string Coordinates { get; set; }

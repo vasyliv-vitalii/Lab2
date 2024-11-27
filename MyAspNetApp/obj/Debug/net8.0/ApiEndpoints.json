@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[FishingAndCyclingApp.DTOs.FishingSpotDto, MyAspNetApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FishingAndCyclingApp.DTOs.UserDto, MyAspNetApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -28,8 +28,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "fishingSpotDto",
-        "Type": "FishingAndCyclingApp.DTOs.FishingSpotDto",
+        "Name": "fishngSpotDto",
+        "Type": "FishingAndCyclingApp.DTOs.CreateUpdateFishingSpotDto",
         "IsRequired": true
       }
     ],
@@ -47,7 +47,7 @@
   },
   {
     "ContainingType": "FishingAndCyclingApp.Controllers.FishingSpotsController",
-    "Method": "GetFishingSpot",
+    "Method": "GetFishingSpotById",
     "RelativePath": "api/FishingSpots/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "FishingAndCyclingApp.DTOs.FishingSpotDto",
+        "Type": "FishingAndCyclingApp.DTOs.UserDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -86,11 +86,21 @@
       },
       {
         "Name": "fishingSpotDto",
-        "Type": "FishingAndCyclingApp.DTOs.FishingSpotDto",
+        "Type": "FishingAndCyclingApp.DTOs.CreateUpdateFishingSpotDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "FishingAndCyclingApp.DTOs.FishingSpotDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "FishingAndCyclingApp.Controllers.FishingSpotsController",
@@ -110,7 +120,7 @@
   },
   {
     "ContainingType": "FishingAndCyclingApp.Controllers.RoutesController",
-    "Method": "GetRoutes",
+    "Method": "GetBikeRouters",
     "RelativePath": "api/Routes",
     "HttpMethod": "GET",
     "IsController": true,
@@ -118,7 +128,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[FishingAndCyclingApp.DTOs.RouteDto, MyAspNetApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FishingAndCyclingApp.DTOs.BikeRouteDTO, MyAspNetApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -130,21 +140,21 @@
   },
   {
     "ContainingType": "FishingAndCyclingApp.Controllers.RoutesController",
-    "Method": "CreateRoute",
+    "Method": "CreateBikeRoute",
     "RelativePath": "api/Routes",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "routeDto",
-        "Type": "FishingAndCyclingApp.DTOs.RouteDto",
+        "Name": "bikeRouteDto",
+        "Type": "FishingAndCyclingApp.DTOs.CreateUpdateBikeRouteDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "FishingAndCyclingApp.DTOs.RouteDto",
+        "Type": "FishingAndCyclingApp.DTOs.BikeRouteDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -156,7 +166,7 @@
   },
   {
     "ContainingType": "FishingAndCyclingApp.Controllers.RoutesController",
-    "Method": "GetRoute",
+    "Method": "GetBikeRouteById",
     "RelativePath": "api/Routes/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -170,7 +180,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "FishingAndCyclingApp.DTOs.RouteDto",
+        "Type": "FishingAndCyclingApp.DTOs.BikeRouteDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -182,7 +192,7 @@
   },
   {
     "ContainingType": "FishingAndCyclingApp.Controllers.RoutesController",
-    "Method": "UpdateRoute",
+    "Method": "UpdateUser",
     "RelativePath": "api/Routes/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -194,16 +204,26 @@
         "IsRequired": true
       },
       {
-        "Name": "routeDto",
-        "Type": "FishingAndCyclingApp.DTOs.RouteDto",
+        "Name": "bikeRouteDto",
+        "Type": "FishingAndCyclingApp.DTOs.CreateUpdateBikeRouteDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "FishingAndCyclingApp.DTOs.UserDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "FishingAndCyclingApp.Controllers.RoutesController",
-    "Method": "DeleteRoute",
+    "Method": "DeleteUser",
     "RelativePath": "api/Routes/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
@@ -247,7 +267,7 @@
     "Parameters": [
       {
         "Name": "userDto",
-        "Type": "FishingAndCyclingApp.DTOs.UserDto",
+        "Type": "FishingAndCyclingApp.DTOs.CreateUpdateUserDto",
         "IsRequired": true
       }
     ],
@@ -304,11 +324,21 @@
       },
       {
         "Name": "userDto",
-        "Type": "FishingAndCyclingApp.DTOs.UserDto",
+        "Type": "FishingAndCyclingApp.DTOs.CreateUpdateUserDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "FishingAndCyclingApp.DTOs.UserDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "FishingAndCyclingApp.Controllers.UsersController",

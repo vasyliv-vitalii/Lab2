@@ -8,7 +8,7 @@ namespace DALayer.DataBase
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        public DbSet<BikeRoute> Routes { get; set; }
+        public DbSet<BikeRoute> BikeRoutes { get; set; }
         public DbSet<FishingSpot> FishingSpots { get; set; }
         public DbSet<User> Users { get; set; }
     }

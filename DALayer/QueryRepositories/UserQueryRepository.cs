@@ -19,8 +19,8 @@ public class UserQueryRepository : IUserQueryRepository
         return await _context.Users.ToListAsync();
     }
 
-    public Task<User> GetUserById(int userId)
+    public async Task<User> GetUserById(int userId)
     {
-        throw new NotImplementedException();
+        return await _context.Users.FirstOrDefaultAsync(x=> x.Id == userId);
     }
 }

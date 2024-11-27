@@ -45,13 +45,7 @@ namespace FishingAndCyclingApp.Controllers
                 return NotFound();
             }
 
-            var userDto = new UserDto
-            {
-                Id = user.Id,
-                Username = user.Username,
-                Email = user.Email,
-                Role = user.Role
-            };
+            var userDto = _mapper.Map<UserDto>(user);
 
             return Ok(userDto);
         }
@@ -80,7 +74,7 @@ namespace FishingAndCyclingApp.Controllers
         {
             var user = await _userService.DeleteUser(id);
             await _userCommandRepository.DeleteUser(user);
-            return Ok();
+            return Ok("User was deleted");
         }
     }
 }

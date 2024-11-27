@@ -1,90 +1,197 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\webForKPI\\",
+  "WorkspaceRootPath": "D:\\lab2\\Lab2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\lab2\\lab2\\myaspnetapp\\validators\\usercreateupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\validators\\usercreateupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD4BD476-7661-4E97-A755-5A01610247BD}|DALayer\\DALayer.csproj|d:\\lab2\\lab2\\dalayer\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4BD476-7661-4E97-A755-5A01610247BD}|DALayer\\DALayer.csproj|solutionrelative:dalayer\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\lab2\\lab2\\myaspnetapp\\validators\\fishingspotcreateupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\validators\\fishingspotcreateupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\lab2\\lab2\\myaspnetapp\\validators\\bikeroutecreateupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\validators\\bikeroutecreateupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\lab2\\lab2\\myaspnetapp\\automapperprofiles\\bikerouteprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\automapperprofiles\\bikerouteprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\repositories\\ifishingspotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\repositories\\ifishingspotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\lab2\\lab2\\myaspnetapp\\automapperprofiles\\fishingspotprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\automapperprofiles\\fishingspotprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\repositories\\irouterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\repositories\\irouterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\lab2\\lab2\\myaspnetapp\\automapperprofiles\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\automapperprofiles\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\repositories\\fishingspotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\repositories\\fishingspotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD4BD476-7661-4E97-A755-5A01610247BD}|DALayer\\DALayer.csproj|d:\\lab2\\lab2\\dalayer\\commandrepositories\\bikeroutecommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4BD476-7661-4E97-A755-5A01610247BD}|DALayer\\DALayer.csproj|solutionrelative:dalayer\\commandrepositories\\bikeroutecommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\repositories\\routerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\repositories\\routerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD4BD476-7661-4E97-A755-5A01610247BD}|DALayer\\DALayer.csproj|d:\\lab2\\lab2\\dalayer\\dalayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CD4BD476-7661-4E97-A755-5A01610247BD}|DALayer\\DALayer.csproj|solutionrelative:dalayer\\dalayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\dtos\\routedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\dtos\\routedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\controllers\\routescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\controllers\\routescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\controllers\\fishingspotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\controllers\\fishingspotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\extentions\\automapperextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\extentions\\automapperextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\dtos\\fishingspotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\dtos\\fishingspotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\models\\fishingspot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\models\\fishingspot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\models\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\models\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\lab2\\lab2\\myaspnetapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\webforkpi\\myaspnetapp\\database\\app.db||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\database\\app.db||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|d:\\lab2\\lab2\\domainlayer\\models\\bikeroute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\bikeroute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\lab2\\lab2\\myaspnetapp\\controllers\\routescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\controllers\\routescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4280EC5-0BFA-40E7-BBD4-83582BD510FB}|BLLayer\\BLLayer.csproj|d:\\lab2\\lab2\\bllayer\\services\\bikerouteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4280EC5-0BFA-40E7-BBD4-83582BD510FB}|BLLayer\\BLLayer.csproj|solutionrelative:bllayer\\services\\bikerouteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4BD476-7661-4E97-A755-5A01610247BD}|DALayer\\DALayer.csproj|d:\\lab2\\lab2\\dalayer\\queryrepositories\\bikeroutequeryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4BD476-7661-4E97-A755-5A01610247BD}|DALayer\\DALayer.csproj|solutionrelative:dalayer\\queryrepositories\\bikeroutequeryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4BD476-7661-4E97-A755-5A01610247BD}|DALayer\\DALayer.csproj|d:\\lab2\\lab2\\dalayer\\queryrepositories\\fishingspotqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4BD476-7661-4E97-A755-5A01610247BD}|DALayer\\DALayer.csproj|solutionrelative:dalayer\\queryrepositories\\fishingspotqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\lab2\\lab2\\myaspnetapp\\dtos\\bikeroutedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\dtos\\bikeroutedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\lab2\\lab2\\myaspnetapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4280EC5-0BFA-40E7-BBD4-83582BD510FB}|BLLayer\\BLLayer.csproj|d:\\lab2\\lab2\\bllayer\\services\\fishingspotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4280EC5-0BFA-40E7-BBD4-83582BD510FB}|BLLayer\\BLLayer.csproj|solutionrelative:bllayer\\services\\fishingspotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4BD476-7661-4E97-A755-5A01610247BD}|DALayer\\DALayer.csproj|d:\\lab2\\lab2\\dalayer\\commandrepositories\\fishingspotcommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4BD476-7661-4E97-A755-5A01610247BD}|DALayer\\DALayer.csproj|solutionrelative:dalayer\\commandrepositories\\fishingspotcommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\lab2\\lab2\\myaspnetapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\lab2\\lab2\\myaspnetapp\\controllers\\fishingspotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\controllers\\fishingspotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4BD476-7661-4E97-A755-5A01610247BD}|DALayer\\DALayer.csproj|d:\\lab2\\lab2\\dalayer\\commandrepositories\\usercommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4BD476-7661-4E97-A755-5A01610247BD}|DALayer\\DALayer.csproj|solutionrelative:dalayer\\commandrepositories\\usercommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|d:\\lab2\\lab2\\domainlayer\\abstarction\\icommandrepositories\\ibikeroutecommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\abstarction\\icommandrepositories\\ibikeroutecommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|d:\\lab2\\lab2\\domainlayer\\abstarction\\iservices\\ibikerouteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\abstarction\\iservices\\ibikerouteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4280EC5-0BFA-40E7-BBD4-83582BD510FB}|BLLayer\\BLLayer.csproj|d:\\lab2\\lab2\\bllayer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4280EC5-0BFA-40E7-BBD4-83582BD510FB}|BLLayer\\BLLayer.csproj|solutionrelative:bllayer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|d:\\lab2\\lab2\\domainlayer\\abstarction\\iservices\\ifishingspotservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\abstarction\\iservices\\ifishingspotservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|d:\\lab2\\lab2\\domainlayer\\abstarction\\iqueryrepositories\\ibikeroutequeryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\abstarction\\iqueryrepositories\\ibikeroutequeryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4BD476-7661-4E97-A755-5A01610247BD}|DALayer\\DALayer.csproj|d:\\lab2\\lab2\\dalayer\\queryrepositories\\userqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4BD476-7661-4E97-A755-5A01610247BD}|DALayer\\DALayer.csproj|solutionrelative:dalayer\\queryrepositories\\userqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|d:\\lab2\\lab2\\domainlayer\\abstarction\\icommandrepositories\\ifishingspotcommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\abstarction\\icommandrepositories\\ifishingspotcommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|d:\\lab2\\lab2\\domainlayer\\abstarction\\icommandrepositories\\iusercommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\abstarction\\icommandrepositories\\iusercommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|d:\\lab2\\lab2\\domainlayer\\abstarction\\iqueryrepositories\\ifishingspotqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\abstarction\\iqueryrepositories\\ifishingspotqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|d:\\lab2\\lab2\\domainlayer\\abstarction\\iqueryrepositories\\iuserqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\abstarction\\iqueryrepositories\\iuserqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\lab2\\lab2\\myaspnetapp\\dtos\\fishingspotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\dtos\\fishingspotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|d:\\lab2\\lab2\\myaspnetapp\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE1DB6B-0752-4AB8-9FE0-BDB164C66D3C}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|d:\\lab2\\lab2\\domainlayer\\models\\fishingspot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\fishingspot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|d:\\lab2\\lab2\\domainlayer\\abstarction\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\abstarction\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|d:\\lab2\\lab2\\domainlayer\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EDA3FD-2B4E-41BA-A9A8-9E61DB6E7C31}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4BD476-7661-4E97-A755-5A01610247BD}|DALayer\\DALayer.csproj|d:\\lab2\\lab2\\dalayer\\database\\app.db||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CD4BD476-7661-4E97-A755-5A01610247BD}|DALayer\\DALayer.csproj|solutionrelative:dalayer\\database\\app.db||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\webForKPI\\MyAspNetApp\\Repositories\\Repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\webForKPI\\MyAspNetApp\\Repositories\\FishingSpotRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\webForKPI\\MyAspNetApp\\Repositories\\RouteRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\webForKPI\\MyAspNetApp\\Repositories\\IUserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\webForKPI\\MyAspNetApp\\Repositories\\IRouteRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\webForKPI\\MyAspNetApp\\Repositories\\UserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\webForKPI\\MyAspNetApp\\Repositories\\IFishingSpotRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\webForKPI\\MyAspNetApp\\Extentions\\AutoMapperExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\webForKPI\\MyAspNetApp\\models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\webForKPI\\MyAspNetApp\\models\\Route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\webForKPI\\MyAspNetApp\\DataBase\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\webForKPI\\MyAspNetApp\\DataBase\\app.db||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\webForKPI\\MyAspNetApp\\models\\FishingSpot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,263 +201,642 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FishingSpotRepository.cs",
-              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Repositories\\FishingSpotRepository.cs",
-              "RelativeDocumentMoniker": "MyAspNetApp\\Repositories\\FishingSpotRepository.cs",
-              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Repositories\\FishingSpotRepository.cs",
-              "RelativeToolTip": "MyAspNetApp\\Repositories\\FishingSpotRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAABCAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "FishingSpotProfile.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\MyAspNetApp\\AutomapperProfiles\\FishingSpotProfile.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\AutomapperProfiles\\FishingSpotProfile.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\MyAspNetApp\\AutomapperProfiles\\FishingSpotProfile.cs",
+              "RelativeToolTip": "MyAspNetApp\\AutomapperProfiles\\FishingSpotProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T17:56:33.018Z"
+              "WhenOpened": "2024-11-26T13:12:25.522Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RouteRepository.cs",
-              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Repositories\\RouteRepository.cs",
-              "RelativeDocumentMoniker": "MyAspNetApp\\Repositories\\RouteRepository.cs",
-              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Repositories\\RouteRepository.cs",
-              "RelativeToolTip": "MyAspNetApp\\Repositories\\RouteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "BikeRouteProfile.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\MyAspNetApp\\AutomapperProfiles\\BikeRouteProfile.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\AutomapperProfiles\\BikeRouteProfile.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\MyAspNetApp\\AutomapperProfiles\\BikeRouteProfile.cs",
+              "RelativeToolTip": "MyAspNetApp\\AutomapperProfiles\\BikeRouteProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T17:55:53.808Z"
+              "WhenOpened": "2024-11-27T15:33:04.005Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Repositories\\Repository.cs",
-              "RelativeDocumentMoniker": "MyAspNetApp\\Repositories\\Repository.cs",
-              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Repositories\\Repository.cs",
-              "RelativeToolTip": "MyAspNetApp\\Repositories\\Repository.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAiwA8AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "BikeRouteCreateUpdateDtoValidator.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\MyAspNetApp\\Validators\\BikeRouteCreateUpdateDtoValidator.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Validators\\BikeRouteCreateUpdateDtoValidator.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\MyAspNetApp\\Validators\\BikeRouteCreateUpdateDtoValidator.cs",
+              "RelativeToolTip": "MyAspNetApp\\Validators\\BikeRouteCreateUpdateDtoValidator.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T17:52:38.635Z",
+              "WhenOpened": "2024-11-27T17:06:36.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Repositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "MyAspNetApp\\Repositories\\IUserRepository.cs",
-              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Repositories\\IUserRepository.cs",
-              "RelativeToolTip": "MyAspNetApp\\Repositories\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "FishingSpotCreateUpdateDtoValidator.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\MyAspNetApp\\Validators\\FishingSpotCreateUpdateDtoValidator.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Validators\\FishingSpotCreateUpdateDtoValidator.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\MyAspNetApp\\Validators\\FishingSpotCreateUpdateDtoValidator.cs",
+              "RelativeToolTip": "MyAspNetApp\\Validators\\FishingSpotCreateUpdateDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T17:57:34.581Z",
+              "WhenOpened": "2024-11-26T13:22:42.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\DALayer\\DataBase\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DALayer\\DataBase\\AppDbContext.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\DALayer\\DataBase\\AppDbContext.cs",
+              "RelativeToolTip": "DALayer\\DataBase\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T18:31:25.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserCreateUpdateDtoValidator.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\MyAspNetApp\\Validators\\UserCreateUpdateDtoValidator.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Validators\\UserCreateUpdateDtoValidator.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\MyAspNetApp\\Validators\\UserCreateUpdateDtoValidator.cs",
+              "RelativeToolTip": "MyAspNetApp\\Validators\\UserCreateUpdateDtoValidator.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:10:03.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IRouteRepository.cs",
-              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Repositories\\IRouteRepository.cs",
-              "RelativeDocumentMoniker": "MyAspNetApp\\Repositories\\IRouteRepository.cs",
-              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Repositories\\IRouteRepository.cs",
-              "RelativeToolTip": "MyAspNetApp\\Repositories\\IRouteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAAAAAAAAAAAA==",
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\MyAspNetApp\\AutomapperProfiles\\UserProfile.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\AutomapperProfiles\\UserProfile.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\MyAspNetApp\\AutomapperProfiles\\UserProfile.cs",
+              "RelativeToolTip": "MyAspNetApp\\AutomapperProfiles\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T17:57:55.042Z"
+              "WhenOpened": "2024-11-26T13:10:16.834Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "BikeRouteCommandRepository.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\DALayer\\CommandRepositories\\BikeRouteCommandRepository.cs",
+              "RelativeDocumentMoniker": "DALayer\\CommandRepositories\\BikeRouteCommandRepository.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\DALayer\\CommandRepositories\\BikeRouteCommandRepository.cs",
+              "RelativeToolTip": "DALayer\\CommandRepositories\\BikeRouteCommandRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:03:01.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DALayer",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\DALayer\\DALayer.csproj",
+              "RelativeDocumentMoniker": "DALayer\\DALayer.csproj",
+              "ToolTip": "D:\\lab2\\Lab2\\DALayer\\DALayer.csproj",
+              "RelativeToolTip": "DALayer\\DALayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-27T16:29:29.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\MyAspNetApp\\appsettings.json",
+              "RelativeDocumentMoniker": "MyAspNetApp\\appsettings.json",
+              "ToolTip": "D:\\lab2\\Lab2\\MyAspNetApp\\appsettings.json",
+              "RelativeToolTip": "MyAspNetApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-22T17:07:03.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BikeRoute.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\DomainLayer\\Models\\BikeRoute.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\BikeRoute.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\DomainLayer\\Models\\BikeRoute.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\BikeRoute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:12:47.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RoutesController.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\MyAspNetApp\\Controllers\\RoutesController.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Controllers\\RoutesController.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\MyAspNetApp\\Controllers\\RoutesController.cs",
+              "RelativeToolTip": "MyAspNetApp\\Controllers\\RoutesController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwv1kAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T18:04:13.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BikeRouteService.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\BLLayer\\Services\\BikeRouteService.cs",
+              "RelativeDocumentMoniker": "BLLayer\\Services\\BikeRouteService.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\BLLayer\\Services\\BikeRouteService.cs",
+              "RelativeToolTip": "BLLayer\\Services\\BikeRouteService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAD4vyoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:26:32.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BikeRouteQueryRepository.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\DALayer\\QueryRepositories\\BikeRouteQueryRepository.cs",
+              "RelativeDocumentMoniker": "DALayer\\QueryRepositories\\BikeRouteQueryRepository.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\DALayer\\QueryRepositories\\BikeRouteQueryRepository.cs",
+              "RelativeToolTip": "DALayer\\QueryRepositories\\BikeRouteQueryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:49:17.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FishingSpotQueryRepository.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\DALayer\\QueryRepositories\\FishingSpotQueryRepository.cs",
+              "RelativeDocumentMoniker": "DALayer\\QueryRepositories\\FishingSpotQueryRepository.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\DALayer\\QueryRepositories\\FishingSpotQueryRepository.cs",
+              "RelativeToolTip": "DALayer\\QueryRepositories\\FishingSpotQueryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T18:28:22.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BikeRouteDTO.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\MyAspNetApp\\DTOs\\BikeRouteDTO.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\DTOs\\BikeRouteDTO.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\MyAspNetApp\\DTOs\\BikeRouteDTO.cs",
+              "RelativeToolTip": "MyAspNetApp\\DTOs\\BikeRouteDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:44:25.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Program.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\MyAspNetApp\\Program.cs",
               "RelativeDocumentMoniker": "MyAspNetApp\\Program.cs",
-              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Program.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\MyAspNetApp\\Program.cs",
               "RelativeToolTip": "MyAspNetApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCYAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T17:49:13.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
+              "Title": "FishingSpotService.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\BLLayer\\Services\\FishingSpotService.cs",
+              "RelativeDocumentMoniker": "BLLayer\\Services\\FishingSpotService.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\BLLayer\\Services\\FishingSpotService.cs",
+              "RelativeToolTip": "BLLayer\\Services\\FishingSpotService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T18:49:01.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FishingSpotCommandRepository.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\DALayer\\CommandRepositories\\FishingSpotCommandRepository.cs",
+              "RelativeDocumentMoniker": "DALayer\\CommandRepositories\\FishingSpotCommandRepository.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\DALayer\\CommandRepositories\\FishingSpotCommandRepository.cs",
+              "RelativeToolTip": "DALayer\\CommandRepositories\\FishingSpotCommandRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T18:36:47.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "MyAspNetApp\\controllers\\UsersController.cs",
-              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\controllers\\UsersController.cs",
-              "RelativeToolTip": "MyAspNetApp\\controllers\\UsersController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\MyAspNetApp\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\MyAspNetApp\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "MyAspNetApp\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwEcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T18:04:08.186Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 20,
+              "Title": "FishingSpotController.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\MyAspNetApp\\Controllers\\FishingSpotController.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Controllers\\FishingSpotController.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\MyAspNetApp\\Controllers\\FishingSpotController.cs",
+              "RelativeToolTip": "MyAspNetApp\\Controllers\\FishingSpotController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvxgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T18:08:21.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserCommandRepository.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\DALayer\\CommandRepositories\\UserCommandRepository.cs",
+              "RelativeDocumentMoniker": "DALayer\\CommandRepositories\\UserCommandRepository.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\DALayer\\CommandRepositories\\UserCommandRepository.cs",
+              "RelativeToolTip": "DALayer\\CommandRepositories\\UserCommandRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T18:27:24.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IBikeRouteCommandRepository.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\DomainLayer\\Abstarction\\ICommandRepositories\\IBikeRouteCommandRepository.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Abstarction\\ICommandRepositories\\IBikeRouteCommandRepository.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\DomainLayer\\Abstarction\\ICommandRepositories\\IBikeRouteCommandRepository.cs",
+              "RelativeToolTip": "DomainLayer\\Abstarction\\ICommandRepositories\\IBikeRouteCommandRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:31:11.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IBikeRouteService.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\DomainLayer\\Abstarction\\IServices\\IBikeRouteService.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Abstarction\\IServices\\IBikeRouteService.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\DomainLayer\\Abstarction\\IServices\\IBikeRouteService.cs",
+              "RelativeToolTip": "DomainLayer\\Abstarction\\IServices\\IBikeRouteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:29:32.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\BLLayer\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BLLayer\\Services\\UserService.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\BLLayer\\Services\\UserService.cs",
+              "RelativeToolTip": "BLLayer\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T18:36:07.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IFishingSpotServise.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\DomainLayer\\Abstarction\\IServices\\IFishingSpotServise.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Abstarction\\IServices\\IFishingSpotServise.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\DomainLayer\\Abstarction\\IServices\\IFishingSpotServise.cs",
+              "RelativeToolTip": "DomainLayer\\Abstarction\\IServices\\IFishingSpotServise.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T18:40:55.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IBikeRouteQueryRepository.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\DomainLayer\\Abstarction\\IQueryRepositories\\IBikeRouteQueryRepository.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Abstarction\\IQueryRepositories\\IBikeRouteQueryRepository.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\DomainLayer\\Abstarction\\IQueryRepositories\\IBikeRouteQueryRepository.cs",
+              "RelativeToolTip": "DomainLayer\\Abstarction\\IQueryRepositories\\IBikeRouteQueryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:28:31.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserQueryRepository.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\DALayer\\QueryRepositories\\UserQueryRepository.cs",
+              "RelativeDocumentMoniker": "DALayer\\QueryRepositories\\UserQueryRepository.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\DALayer\\QueryRepositories\\UserQueryRepository.cs",
+              "RelativeToolTip": "DALayer\\QueryRepositories\\UserQueryRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T18:27:27.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IFishingSpotCommandRepository.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\DomainLayer\\Abstarction\\ICommandRepositories\\IFishingSpotCommandRepository.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Abstarction\\ICommandRepositories\\IFishingSpotCommandRepository.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\DomainLayer\\Abstarction\\ICommandRepositories\\IFishingSpotCommandRepository.cs",
+              "RelativeToolTip": "DomainLayer\\Abstarction\\ICommandRepositories\\IFishingSpotCommandRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T18:38:13.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IUserCommandRepository.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\DomainLayer\\Abstarction\\ICommandRepositories\\IUserCommandRepository.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Abstarction\\ICommandRepositories\\IUserCommandRepository.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\DomainLayer\\Abstarction\\ICommandRepositories\\IUserCommandRepository.cs",
+              "RelativeToolTip": "DomainLayer\\Abstarction\\ICommandRepositories\\IUserCommandRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T18:36:57.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IFishingSpotQueryRepository.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\DomainLayer\\Abstarction\\IQueryRepositories\\IFishingSpotQueryRepository.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Abstarction\\IQueryRepositories\\IFishingSpotQueryRepository.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\DomainLayer\\Abstarction\\IQueryRepositories\\IFishingSpotQueryRepository.cs",
+              "RelativeToolTip": "DomainLayer\\Abstarction\\IQueryRepositories\\IFishingSpotQueryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T18:39:49.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IUserQueryRepository.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\DomainLayer\\Abstarction\\IQueryRepositories\\IUserQueryRepository.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Abstarction\\IQueryRepositories\\IUserQueryRepository.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\DomainLayer\\Abstarction\\IQueryRepositories\\IUserQueryRepository.cs",
+              "RelativeToolTip": "DomainLayer\\Abstarction\\IQueryRepositories\\IUserQueryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T18:37:31.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "FishingSpotDTO.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\MyAspNetApp\\DTOs\\FishingSpotDTO.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\DTOs\\FishingSpotDTO.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\MyAspNetApp\\DTOs\\FishingSpotDTO.cs",
+              "RelativeToolTip": "MyAspNetApp\\DTOs\\FishingSpotDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:44:48.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\MyAspNetApp\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\DTOs\\UserDTO.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\MyAspNetApp\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "MyAspNetApp\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:43:43.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "FishingSpot.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\DomainLayer\\Models\\FishingSpot.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\FishingSpot.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\DomainLayer\\Models\\FishingSpot.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\FishingSpot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T18:57:27.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\DomainLayer\\Abstarction\\IServices\\IUserService.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Abstarction\\IServices\\IUserService.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\DomainLayer\\Abstarction\\IServices\\IUserService.cs",
+              "RelativeToolTip": "DomainLayer\\Abstarction\\IServices\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T18:37:29.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\DomainLayer\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\User.cs",
+              "ToolTip": "D:\\lab2\\Lab2\\DomainLayer\\Models\\User.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:13:14.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "app.db",
+              "DocumentMoniker": "D:\\lab2\\Lab2\\DALayer\\DataBase\\app.db",
+              "RelativeDocumentMoniker": "DALayer\\DataBase\\app.db",
+              "ToolTip": "D:\\lab2\\Lab2\\DALayer\\DataBase\\app.db",
+              "RelativeToolTip": "DALayer\\DataBase\\app.db",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMuSURBVEhLtVVrS1RBGH4sV5S8rWUiUd6DkC3TXAhR11uZ9CHJrC0KCoKk\u002Bg1Ff6BS64MaWXkrN6PCRLQ2KQMltdQSNV1XrCBLN0vd\u002BzQz55zVXVc8ffCBZ9457\u002B2ZmXPDuoIQ4iNOOWpra6mLMP8qZDVO0Qo\u002BhUJhslgsWSUlFz6IbVZHTU0NcTgcbrRLtEu0c\u002Bt0OkldXR0xGo2kqurObPmt20liGzdsEC0HWxEDLYaD0cHocJEKuchyGJRKJXLzckP9/BT60rLyFSJeBfgoTGUhjIocyMvjIqLLBa8CS809ryUsOSoqKjh1Oh3MZkuo6PaO6upqfu5Wq43SSoZGRklzazuZ/jlDbRsZMxiJ2WKltBDajCy6aCY2m51cv3FzxVJW7IBlsJHZdn0HfBT\u002BaNA1gWz0Q3dPL89bAbGt6wSWwesRff32HU3Pmukj6IfouHhk5xcgKjYOpt9zqLx7H\u002BMGo9STYtlsbQE2AEPDo1CGRyArLx/9fT3o1Ldj8GMf0jTZiKKC4xNGoUCE1FaGAH306KunTtmL0aHPdO6DudlfOHPyBP6YTDTkA\u002BPYFxpPliqWulPI3kH3\u002B14k7Epk/REStgX36hoQFKrk4tHxCUv3wr2/HAEhISYmmu7gE161tiApZR8ycw5iT3IK3upf4q9pBnOUZaWl6Oru4vkChE\u002BHJ7wIEMRG78D5s6cREhwEAz2SthfPMTE\u002BBrvNxt/o\u002BNR0ZGvPYUNkHB48bBRqXfXu8LoDvnXKVHov7IvzOH60EE7LIsI3hyJRnQbV9q0YedOKlKgI7NyvwUB/v1AmR4ClSGnbIiORo8lAUFAgtemYNBjgHxCAJ7pH0Gq1ePq4EcGBm9DR8ZrnryngdEsQpZiPCVOTqcmE1WxG4bFi1NfX40hRMRbmF5CRqREq1hLgCSxHbOi65FFApdqNwe5ODE9NQ6U5hIHJHxh6p6d\u002BFY/LE2CWj95ReLgAs8YRtNRUYmFqFKeKi8SI5wkI8H6TPUH9LMZJL9VqNS5eusytG\u002BQJUDIrNWQUwmtC1g5Yiq/Cl1PxH5TqPeH202ffc9eqZZCvWLSS79rVK2491xnAP3rCRRQmN3FcAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-11-23T18:31:25.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "RouteRepository.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Repositories\\RouteRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\webForKPI\\MyAspNetApp\\Repositories\\RouteRepository.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Repositories\\RouteRepository.cs",
+              "RelativeToolTip": "..\\..\\webForKPI\\MyAspNetApp\\Repositories\\RouteRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:55:53.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "..\\..\\webForKPI\\MyAspNetApp\\Repositories\\Repository.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Repositories\\Repository.cs",
+              "RelativeToolTip": "..\\..\\webForKPI\\MyAspNetApp\\Repositories\\Repository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:52:38.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\webForKPI\\MyAspNetApp\\Repositories\\IUserRepository.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "..\\..\\webForKPI\\MyAspNetApp\\Repositories\\IUserRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:57:34.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IRouteRepository.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Repositories\\IRouteRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\webForKPI\\MyAspNetApp\\Repositories\\IRouteRepository.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Repositories\\IRouteRepository.cs",
+              "RelativeToolTip": "..\\..\\webForKPI\\MyAspNetApp\\Repositories\\IRouteRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:57:55.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "MyAspNetApp\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\webForKPI\\MyAspNetApp\\Repositories\\UserRepository.cs",
               "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "MyAspNetApp\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\webForKPI\\MyAspNetApp\\Repositories\\UserRepository.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T17:55:09.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T17:55:09.874Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 39,
+              "Title": "FishingSpotRepository.cs",
+              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Repositories\\FishingSpotRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\webForKPI\\MyAspNetApp\\Repositories\\FishingSpotRepository.cs",
+              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Repositories\\FishingSpotRepository.cs",
+              "RelativeToolTip": "..\\..\\webForKPI\\MyAspNetApp\\Repositories\\FishingSpotRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:56:33.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
               "Title": "IFishingSpotRepository.cs",
               "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Repositories\\IFishingSpotRepository.cs",
-              "RelativeDocumentMoniker": "MyAspNetApp\\Repositories\\IFishingSpotRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\webForKPI\\MyAspNetApp\\Repositories\\IFishingSpotRepository.cs",
               "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Repositories\\IFishingSpotRepository.cs",
-              "RelativeToolTip": "MyAspNetApp\\Repositories\\IFishingSpotRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\webForKPI\\MyAspNetApp\\Repositories\\IFishingSpotRepository.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T17:58:17.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T17:58:17.792Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RouteDTO.cs",
-              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\DTOs\\RouteDTO.cs",
-              "RelativeDocumentMoniker": "MyAspNetApp\\DTOs\\RouteDTO.cs",
-              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\DTOs\\RouteDTO.cs",
-              "RelativeToolTip": "MyAspNetApp\\DTOs\\RouteDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T17:44:25.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 45,
               "Title": "AutoMapperExtensions.cs",
               "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\Extentions\\AutoMapperExtensions.cs",
-              "RelativeDocumentMoniker": "MyAspNetApp\\Extentions\\AutoMapperExtensions.cs",
+              "RelativeDocumentMoniker": "..\\..\\webForKPI\\MyAspNetApp\\Extentions\\AutoMapperExtensions.cs",
               "ToolTip": "D:\\webForKPI\\MyAspNetApp\\Extentions\\AutoMapperExtensions.cs",
-              "RelativeToolTip": "MyAspNetApp\\Extentions\\AutoMapperExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\webForKPI\\MyAspNetApp\\Extentions\\AutoMapperExtensions.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T17:46:49.441Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RoutesController.cs",
-              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\controllers\\RoutesController.cs",
-              "RelativeDocumentMoniker": "MyAspNetApp\\controllers\\RoutesController.cs",
-              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\controllers\\RoutesController.cs",
-              "RelativeToolTip": "MyAspNetApp\\controllers\\RoutesController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAgwAQAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T18:04:13.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FishingSpotController.cs",
-              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\controllers\\FishingSpotController.cs",
-              "RelativeDocumentMoniker": "MyAspNetApp\\controllers\\FishingSpotController.cs",
-              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\controllers\\FishingSpotController.cs",
-              "RelativeToolTip": "MyAspNetApp\\controllers\\FishingSpotController.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAmwFgAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T18:08:21.742Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FishingSpotDTO.cs",
-              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\DTOs\\FishingSpotDTO.cs",
-              "RelativeDocumentMoniker": "MyAspNetApp\\DTOs\\FishingSpotDTO.cs",
-              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\DTOs\\FishingSpotDTO.cs",
-              "RelativeToolTip": "MyAspNetApp\\DTOs\\FishingSpotDTO.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAgAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T17:44:48.23Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\DTOs\\UserDTO.cs",
-              "RelativeDocumentMoniker": "MyAspNetApp\\DTOs\\UserDTO.cs",
-              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\DTOs\\UserDTO.cs",
-              "RelativeToolTip": "MyAspNetApp\\DTOs\\UserDTO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAYwA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T17:43:43.743Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 46,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\models\\User.cs",
-              "RelativeDocumentMoniker": "MyAspNetApp\\models\\User.cs",
+              "RelativeDocumentMoniker": "..\\..\\webForKPI\\MyAspNetApp\\models\\User.cs",
               "ToolTip": "D:\\webForKPI\\MyAspNetApp\\models\\User.cs",
-              "RelativeToolTip": "MyAspNetApp\\models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\webForKPI\\MyAspNetApp\\models\\User.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T17:15:08.17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 47,
               "Title": "Route.cs",
               "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\models\\Route.cs",
-              "RelativeDocumentMoniker": "MyAspNetApp\\models\\Route.cs",
+              "RelativeDocumentMoniker": "..\\..\\webForKPI\\MyAspNetApp\\models\\Route.cs",
               "ToolTip": "D:\\webForKPI\\MyAspNetApp\\models\\Route.cs",
-              "RelativeToolTip": "MyAspNetApp\\models\\Route.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\webForKPI\\MyAspNetApp\\models\\Route.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T17:14:49.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 48,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\DataBase\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "MyAspNetApp\\DataBase\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\webForKPI\\MyAspNetApp\\DataBase\\AppDbContext.cs",
               "ToolTip": "D:\\webForKPI\\MyAspNetApp\\DataBase\\AppDbContext.cs",
-              "RelativeToolTip": "MyAspNetApp\\DataBase\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAbAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\webForKPI\\MyAspNetApp\\DataBase\\AppDbContext.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T17:08:29.422Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 49,
               "Title": "app.db",
               "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\DataBase\\app.db",
-              "RelativeDocumentMoniker": "MyAspNetApp\\DataBase\\app.db",
+              "RelativeDocumentMoniker": "..\\..\\webForKPI\\MyAspNetApp\\DataBase\\app.db",
               "ToolTip": "D:\\webForKPI\\MyAspNetApp\\DataBase\\app.db",
-              "RelativeToolTip": "MyAspNetApp\\DataBase\\app.db",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\webForKPI\\MyAspNetApp\\DataBase\\app.db",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMuSURBVEhLtVVrS1RBGH4sV5S8rWUiUd6DkC3TXAhR11uZ9CHJrC0KCoKk\u002Bg1Ff6BS64MaWXkrN6PCRLQ2KQMltdQSNV1XrCBLN0vd\u002BzQz55zVXVc8ffCBZ9457\u002B2ZmXPDuoIQ4iNOOWpra6mLMP8qZDVO0Qo\u002BhUJhslgsWSUlFz6IbVZHTU0NcTgcbrRLtEu0c\u002Bt0OkldXR0xGo2kqurObPmt20liGzdsEC0HWxEDLYaD0cHocJEKuchyGJRKJXLzckP9/BT60rLyFSJeBfgoTGUhjIocyMvjIqLLBa8CS809ryUsOSoqKjh1Oh3MZkuo6PaO6upqfu5Wq43SSoZGRklzazuZ/jlDbRsZMxiJ2WKltBDajCy6aCY2m51cv3FzxVJW7IBlsJHZdn0HfBT\u002BaNA1gWz0Q3dPL89bAbGt6wSWwesRff32HU3Pmukj6IfouHhk5xcgKjYOpt9zqLx7H\u002BMGo9STYtlsbQE2AEPDo1CGRyArLx/9fT3o1Ldj8GMf0jTZiKKC4xNGoUCE1FaGAH306KunTtmL0aHPdO6DudlfOHPyBP6YTDTkA\u002BPYFxpPliqWulPI3kH3\u002B14k7Epk/REStgX36hoQFKrk4tHxCUv3wr2/HAEhISYmmu7gE161tiApZR8ycw5iT3IK3upf4q9pBnOUZaWl6Oru4vkChE\u002BHJ7wIEMRG78D5s6cREhwEAz2SthfPMTE\u002BBrvNxt/o\u002BNR0ZGvPYUNkHB48bBRqXfXu8LoDvnXKVHov7IvzOH60EE7LIsI3hyJRnQbV9q0YedOKlKgI7NyvwUB/v1AmR4ClSGnbIiORo8lAUFAgtemYNBjgHxCAJ7pH0Gq1ePq4EcGBm9DR8ZrnryngdEsQpZiPCVOTqcmE1WxG4bFi1NfX40hRMRbmF5CRqREq1hLgCSxHbOi65FFApdqNwe5ODE9NQ6U5hIHJHxh6p6d\u002BFY/LE2CWj95ReLgAs8YRtNRUYmFqFKeKi8SI5wkI8H6TPUH9LMZJL9VqNS5eusytG\u002BQJUDIrNWQUwmtC1g5Yiq/Cl1PxH5TqPeH202ffc9eqZZCvWLSS79rVK2491xnAP3rCRRQmN3FcAAAAAElFTkSuQmCC",
               "WhenOpened": "2024-11-22T17:07:32.562Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\appsettings.json",
-              "RelativeDocumentMoniker": "MyAspNetApp\\appsettings.json",
-              "ToolTip": "D:\\webForKPI\\MyAspNetApp\\appsettings.json",
-              "RelativeToolTip": "MyAspNetApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-22T17:07:03.871Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 50,
               "Title": "FishingSpot.cs",
               "DocumentMoniker": "D:\\webForKPI\\MyAspNetApp\\models\\FishingSpot.cs",
-              "RelativeDocumentMoniker": "MyAspNetApp\\models\\FishingSpot.cs",
+              "RelativeDocumentMoniker": "..\\..\\webForKPI\\MyAspNetApp\\models\\FishingSpot.cs",
               "ToolTip": "D:\\webForKPI\\MyAspNetApp\\models\\FishingSpot.cs",
-              "RelativeToolTip": "MyAspNetApp\\models\\FishingSpot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\webForKPI\\MyAspNetApp\\models\\FishingSpot.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T16:51:46.707Z"
             }
