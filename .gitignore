@@ -1,0 +1,12 @@
+﻿# Ignore Visual Studio and JetBrains project files
+.vs/
+.idea/
+
+# Ignore build output directories
+./BLLayer/obj/
+./DomainLayer/bin/
+./DomainLayer/
+
+
+# Ignore .env files
+.env
