@@ -9,7 +9,7 @@ namespace MyAspNetApp.AutomapperProfiles
         public FishingSpotProfile()
         {
             CreateMap<FishingSpot, FishingSpotDto>();
-            CreateMap<CreateUpdateBikeRouteDto, FishingSpot>();
+            CreateMap<CreateUpdateFishingSpotDto, FishingSpot>();
         }
     }
 }

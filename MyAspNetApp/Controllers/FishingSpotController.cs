@@ -62,7 +62,7 @@ namespace FishingAndCyclingApp.Controllers
 
             var fishingSpot = await _fishingSpotService.CreateFishingSpotAsync(_mapper.Map<FishingSpot>(fishngSpotDto));
             fishingSpot = await _fishingSpotCommandRepository.CreateFishingSpot(fishingSpot);
-            return _mapper.Map<FishingSpotDto>(fishngSpotDto);
+            return _mapper.Map<FishingSpotDto>(fishingSpot);
         }
 
         [HttpPut("{id}")]

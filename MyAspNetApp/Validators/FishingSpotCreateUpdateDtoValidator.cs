@@ -17,7 +17,6 @@ namespace MyAspNetApp.Validators
                 .Matches(@"^-?\d+(\.\d+)?,-?\d+(\.\d+)?$").WithMessage("Coordinates must be in the format 'latitude,longitude'.");
 
             RuleFor(x => x.FishTypes)
-                .NotNull().WithMessage("FishTypes cannot be null.")
                 .Must(fishTypes => fishTypes != null && fishTypes.Count > 0).WithMessage("At least one fish type is required.")
                 .ForEach(fishType => fishType.NotEmpty().WithMessage("Fish type cannot be empty."));
 
