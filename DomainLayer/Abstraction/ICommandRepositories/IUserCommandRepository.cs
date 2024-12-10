@@ -1,6 +1,6 @@
 ﻿using DomainLayer.Models;
 
-namespace DomainLayer.Abstarction.ICommandRepositories;
+namespace DomainLayer.Abstraction.ICommandRepositories;
 
 public interface IUserCommandRepository
 {

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DomainLayer.Abstarction.ICommandRepositories
+namespace DomainLayer.Abstraction.ICommandRepositories
 {
     public interface IFishingSpotCommandRepository 
     {

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using DomainLayer.Models;
-using FishingAndCyclingApp.DTOs;
+using MyAspNetApp.DTOs;
 
 namespace MyAspNetApp.AutomapperProfiles;
 

@@ -1,5 +1,5 @@
-﻿using FishingAndCyclingApp.DTOs;
-using FluentValidation;
+﻿using FluentValidation;
+using MyAspNetApp.DTOs;
 
 namespace MyAspNetApp.Validators
 {

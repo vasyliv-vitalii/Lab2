@@ -1,11 +1,6 @@
-﻿using DomainLayer.Abstarction.IQueryRepositories;
-using DomainLayer.Abstarction.IServices;
+﻿using DomainLayer.Abstraction.IQueryRepositories;
+using DomainLayer.Abstraction.IServices;
 using DomainLayer.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BLLayer.Services
 {
@@ -18,15 +13,15 @@ namespace BLLayer.Services
             _bikeRouteQueryRepository= bikeRouteQueryRepository;
         }
 
-        public async Task<BikeRoute> CreateBikeRouteAsync(BikeRoute BikeRoute)
+        public async Task<BikeRoute> CreateBikeRouteAsync(BikeRoute bikeRoute)
         {
-            BikeRoute.Locations = new List<string>();
-            return BikeRoute;
+            bikeRoute.Locations = new List<string>();
+            return bikeRoute;
         }
 
-        public async Task<BikeRoute> UpdateBikeRoute(int BikeRouteId, BikeRoute updatedBikeRoute)
+        public async Task<BikeRoute> UpdateBikeRoute(int bikeRouteId, BikeRoute updatedBikeRoute)
         {
-            var bikeRoute = await _bikeRouteQueryRepository.GetBikeRouteById(BikeRouteId);
+            var bikeRoute = await _bikeRouteQueryRepository.GetBikeRouteById(bikeRouteId);
             if (bikeRoute == null)
             {
                 throw new Exception("fishingSpot not found");
@@ -39,9 +34,9 @@ namespace BLLayer.Services
             return bikeRoute;
         }
 
-        public async Task<BikeRoute> DeleteBikeRoute(int BikeRouteId)
+        public async Task<BikeRoute> DeleteBikeRoute(int bikeRouteId)
         {
-            var bikeRoute = await _bikeRouteQueryRepository.GetBikeRouteById(BikeRouteId);
+            var bikeRoute = await _bikeRouteQueryRepository.GetBikeRouteById(bikeRouteId);
             if (bikeRoute == null)
             {
                 throw new Exception("FishngSpot not found");

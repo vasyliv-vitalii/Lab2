@@ -1,5 +1,5 @@
 ﻿using DALayer.DataBase;
-using DomainLayer.Abstarction.ICommandRepositories;
+using DomainLayer.Abstraction.ICommandRepositories;
 using DomainLayer.Models;
 
 namespace DALayer.CommandRepositories;

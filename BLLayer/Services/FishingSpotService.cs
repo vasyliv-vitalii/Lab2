@@ -1,5 +1,5 @@
-﻿using DomainLayer.Abstarction.IQueryRepositories;
-using DomainLayer.Abstarction.IServices;
+﻿using DomainLayer.Abstraction.IQueryRepositories;
+using DomainLayer.Abstraction.IServices;
 using DomainLayer.Models;
 using System;
 using System.Collections.Generic;
@@ -9,24 +9,31 @@ using System.Threading.Tasks;
 
 namespace BLLayer.Services
 {
-    public class FishingSpotService : IFishingSpotServise
+    public class FishingSpotService : IFishingSpotService
     {
         private readonly IFishingSpotQueryRepository _fishingRepository;
+        private readonly IUserService _userService;
 
-        public FishingSpotService(IFishingSpotQueryRepository fishingRepository)
+        public FishingSpotService(IFishingSpotQueryRepository fishingRepository, IUserService userService)
         {
             _fishingRepository = fishingRepository;
+            _userService = userService;
         }
 
-        public async Task<FishingSpot> CreateFishingSpotAsync(FishingSpot FishingSpot)
+        public async Task<FishingSpot> CreateFishingSpotAsync(FishingSpot fishingSpot)
         {
-            FishingSpot.FishTypes = new List<string>();
-            return FishingSpot;
+            var currentUserRole = _userService.GetCurrentUserRole();
+            if (currentUserRole.ToLower() != "admin")
+            {
+                throw new UnauthorizedAccessException();
+            }
+            fishingSpot.FishTypes = new List<string>();
+            return fishingSpot;
         }
 
-        public async Task<FishingSpot> UpdateFishingSpot(int FishingSpotd, FishingSpot updatedFishingSpot)
+        public async Task<FishingSpot> UpdateFishingSpot(int fishingSpotd, FishingSpot updatedFishingSpot)
         {
-            var fishingSpot = await _fishingRepository.GetFishingSpotById(FishingSpotd);
+            var fishingSpot = await _fishingRepository.GetFishingSpotById(fishingSpotd);
             if (fishingSpot == null)
             {
                 throw new Exception("fishingSpot not found");
@@ -38,9 +45,9 @@ namespace BLLayer.Services
             return fishingSpot;
         }
 
-        public async Task<FishingSpot> DeleteFishingSpot(int FishingSpotId)
+        public async Task<FishingSpot> DeleteFishingSpot(int fishingSpotId)
         {
-            var fishngSpot = await _fishingRepository.GetFishingSpotById(FishingSpotId);
+            var fishngSpot = await _fishingRepository.GetFishingSpotById(fishingSpotId);
             if (fishngSpot == null)
             {
                 throw new Exception("FishngSpot not found");

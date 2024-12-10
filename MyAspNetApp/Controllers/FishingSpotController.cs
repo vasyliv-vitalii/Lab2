@@ -1,17 +1,14 @@
 using AutoMapper;
-using BLLayer.Services;
-using DALayer.CommandRepositories;
-using DALayer.QueryRepositories;
-using DomainLayer.Abstarction.ICommandRepositories;
-using DomainLayer.Abstarction.IQueryRepositories;
-using DomainLayer.Abstarction.IServices;
+using DomainLayer.Abstraction.ICommandRepositories;
+using DomainLayer.Abstraction.IQueryRepositories;
+using DomainLayer.Abstraction.IServices;
 using DomainLayer.Models;
-using FishingAndCyclingApp.DTOs;
-using FishingAndCyclingApp.Validators;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using MyAspNetApp.DTOs;
 using MyAspNetApp.Validators;
 
-namespace FishingAndCyclingApp.Controllers
+namespace MyAspNetApp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -20,11 +17,11 @@ namespace FishingAndCyclingApp.Controllers
 
         private readonly IFishingSpotCommandRepository _fishingSpotCommandRepository;
         private readonly IFishingSpotQueryRepository _fishingSpotQueryRepository;
-        private readonly IFishingSpotServise _fishingSpotService;
+        private readonly IFishingSpotService _fishingSpotService;
         private readonly IMapper _mapper;
 
         public FishingSpotsController(IFishingSpotCommandRepository fishingSpotCommandRepository, 
-            IFishingSpotQueryRepository fishingSpotQueryRepository, IFishingSpotServise fishingSpotService, IMapper mapper)
+            IFishingSpotQueryRepository fishingSpotQueryRepository, IFishingSpotService fishingSpotService, IMapper mapper)
         {
             _fishingSpotCommandRepository = fishingSpotCommandRepository;
             _fishingSpotQueryRepository = fishingSpotQueryRepository;
@@ -56,6 +53,7 @@ namespace FishingAndCyclingApp.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")] 
         public async Task<ActionResult<FishingSpotDto>> CreateFishingSpot(CreateUpdateFishingSpotDto fishngSpotDto)
         {
             FishingSpotCreateUpdateDtoValidator.ValidateDto(fishngSpotDto);
@@ -66,6 +64,7 @@ namespace FishingAndCyclingApp.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin")] 
         public async Task<FishingSpotDto> UpdateFishingSpot(int id, CreateUpdateFishingSpotDto fishingSpotDto)
         {
             FishingSpotCreateUpdateDtoValidator.ValidateDto(fishingSpotDto);
@@ -76,6 +75,7 @@ namespace FishingAndCyclingApp.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")] 
         public async Task<IActionResult> DeleteFishingSpot(int id)
         {
             var fishingSpot = await _fishingSpotService.DeleteFishingSpot(id);

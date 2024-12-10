@@ -1,5 +1,5 @@
 ﻿using DALayer.DataBase;
-using DomainLayer.Abstarction.IQueryRepositories;
+using DomainLayer.Abstraction.IQueryRepositories;
 using DomainLayer.Models;
 using Microsoft.EntityFrameworkCore;
 using System;

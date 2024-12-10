@@ -1,7 +1,7 @@
-﻿using FishingAndCyclingApp.DTOs;
-using FluentValidation;
+﻿using FluentValidation;
+using MyAspNetApp.DTOs;
 
-namespace FishingAndCyclingApp.Validators;
+namespace MyAspNetApp.Validators;
 
 public class UserCreateUpdateDtoValidator : AbstractValidator<CreateUpdateUserDto>
 {

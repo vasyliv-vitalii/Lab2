@@ -1,15 +1,20 @@
-using Microsoft.EntityFrameworkCore;
-using Microsoft.OpenApi.Models;
 using System.Reflection;
+using System.Text;
+using BLLayer.Authentication.Implementation;
+using BLLayer.Authentication.Interfaces;
 using BLLayer.Services;
 using DALayer.CommandRepositories;
 using DALayer.DataBase;
 using DALayer.QueryRepositories;
-using DomainLayer.Abstarction.ICommandRepositories;
-using DomainLayer.Abstarction.IQueryRepositories;
-using DomainLayer.Abstarction.IServices;
+using DomainLayer.Abstraction.ICommandRepositories;
+using DomainLayer.Abstraction.IQueryRepositories;
+using DomainLayer.Abstraction.IServices;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
+using MyAspNetApp.Middlewares;
 
-namespace FishingAndCyclingApp
+namespace MyAspNetApp
 {
     public class Program
     {
@@ -37,38 +42,90 @@ namespace FishingAndCyclingApp
             
             builder.Services.AddScoped<IFishingSpotCommandRepository, FishingSpotCommandRepository>();
             builder.Services.AddScoped<IFishingSpotQueryRepository, FishingSpotQueryRepository>();
-            builder.Services.AddScoped<IFishingSpotServise, FishingSpotService>();
+            builder.Services.AddScoped<IFishingSpotService, FishingSpotService>();
 
             
             builder.Services.AddScoped<IBikeRouteCommandRepository, BikeRouteCommandRepository>();
             builder.Services.AddScoped<IBikeRouteQueryRepository, BikeRouteQueryRepository>();
             builder.Services.AddScoped<IBikeRouteService, BikeRouteService>();
+            
+            builder.Services.AddScoped<IAuthService, AuthService>();
+        
+            builder.Services.AddMemoryCache();
+            
+            builder.Services.AddScoped<IdentityInfoProvider>();
+            builder.Services.AddScoped<IIdentityInfoSetter>(provider => provider.GetService<IdentityInfoProvider>());
+            builder.Services.AddScoped<IIdentityInfoGetter>(provider => provider.GetService<IdentityInfoProvider>());
 
             builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
    
 
-            // Add Swagger for API documentation
             builder.Services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Fishing and Routes API", Version = "v1" });
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Description = "JWT Authorization header, add Bearer before token.",
+                    Name = "Authorization",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.ApiKey,
+                    BearerFormat = "JWT",
+                });
+                
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "Bearer"
+                            }
+                        },
+                        new string[] {}
+                    }
+                });
             });
+            
+            var jwtSettings = config.GetSection("JwtSettings");
+            var key = jwtSettings["SecretKey"];
+            
+            builder.Services.AddAuthentication()
+                .AddJwtBearer(options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateAudience = false,
+                        ValidateIssuer = false,
+                        ValidateLifetime = true,
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key))
+                    };
+                });
 
             var app = builder.Build();
 
             // Configure the HTTP request pipeline
             if (app.Environment.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c =>
+                {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "API v1");
+                    c.OAuthClientId("swagger-ui");
+                    c.OAuthAppName("Swagger UI");
+                });
             }
 
             app.UseHttpsRedirection();
+            app.UseAuthentication();
+            app.UseMiddleware<AccessTokenHandlingMiddleware>();
             app.UseAuthorization();
 
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Fishing and Routes API V1");
-                c.RoutePrefix = string.Empty; // Set Swagger UI at the app's root
+                c.RoutePrefix = string.Empty;
             });
 
             app.MapControllers();

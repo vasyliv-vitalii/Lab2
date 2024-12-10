@@ -1,4 +1,4 @@
-﻿namespace FishingAndCyclingApp.DTOs
+﻿namespace MyAspNetApp.DTOs
 {
     public class BikeRouteDTO
     {

@@ -1,5 +1,5 @@
 ﻿using DALayer.DataBase;
-using DomainLayer.Abstarction.IQueryRepositories;
+using DomainLayer.Abstraction.IQueryRepositories;
 using DomainLayer.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -22,6 +22,11 @@ public class UserQueryRepository : IUserQueryRepository
     public async Task<User?> GetUserById(int userId)
     {
         return await _context.Users.FirstOrDefaultAsync(x=> x.Id == userId);
+    }
+
+    public async Task<User?> GetUserByEmail(string email)
+    {
+        return await _context.Users.FirstOrDefaultAsync(x=> x.Email == email);
     }
 
     public async Task<List<FishingSpot>> GetUserFishingSpots(int userId)

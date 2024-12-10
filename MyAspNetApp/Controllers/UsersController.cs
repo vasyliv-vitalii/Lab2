@@ -1,13 +1,14 @@
-using FishingAndCyclingApp.DTOs;
-using Microsoft.AspNetCore.Mvc;
 using AutoMapper;
-using DomainLayer.Abstarction.ICommandRepositories;
-using DomainLayer.Abstarction.IQueryRepositories;
-using DomainLayer.Abstarction.IServices;
+using DomainLayer.Abstraction.ICommandRepositories;
+using DomainLayer.Abstraction.IQueryRepositories;
+using DomainLayer.Abstraction.IServices;
 using DomainLayer.Models;
-using FishingAndCyclingApp.Validators;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using MyAspNetApp.DTOs;
+using MyAspNetApp.Validators;
 
-namespace FishingAndCyclingApp.Controllers
+namespace MyAspNetApp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -50,29 +51,21 @@ namespace FishingAndCyclingApp.Controllers
             return Ok(userDto);
         }
 
-        [HttpPost]
-        public async Task<ActionResult<UserDto>> CreateUser(CreateUpdateUserDto userDto)
+        [HttpPut]
+        [Authorize]
+        public async Task<UserDto> UpdateUser(CreateUpdateUserDto userDto)
         {
             UserCreateUpdateDtoValidator.ValidateDto(userDto);
-            
-            var user = await _userService.CreateUserAsync(_mapper.Map<User>(userDto));
-            user = await _userCommandRepository.CreateUser(user);
-            return _mapper.Map<UserDto>(user);
-        }
-
-        [HttpPut("{id}")]
-        public async Task<UserDto> UpdateUser(int id, CreateUpdateUserDto userDto)
-        {
-            UserCreateUpdateDtoValidator.ValidateDto(userDto);
-            var user = await _userService.UpdateUser(id, _mapper.Map<User>(userDto));
+            var user = await _userService.UpdateUser(_mapper.Map<User>(userDto));
             user = await _userCommandRepository.UpdateUser(user);
             return _mapper.Map<UserDto>(user);
         }
 
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteUser(int id)
+        [HttpDelete]
+        [Authorize]
+        public async Task<IActionResult> DeleteUser()
         {
-            var user = await _userService.DeleteUser(id);
+            var user = await _userService.DeleteUser();
             await _userCommandRepository.DeleteUser(user);
             return Ok("User was deleted");
         }
