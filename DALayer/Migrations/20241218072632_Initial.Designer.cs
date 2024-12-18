@@ -13,8 +13,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace DALayer.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241210035534_AddedPasswordToUserEntity")]
-    partial class AddedPasswordToUserEntity
+    [Migration("20241218072632_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

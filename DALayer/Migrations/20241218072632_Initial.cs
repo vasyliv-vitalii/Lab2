@@ -20,11 +20,35 @@ namespace DALayer.Migrations
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     Username = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
                     Email = table.Column<string>(type: "text", nullable: false),
+                    Password = table.Column<string>(type: "text", nullable: false),
                     Role = table.Column<string>(type: "text", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Users", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "BikeRoutes",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Name = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
+                    Description = table.Column<string>(type: "text", nullable: false),
+                    Distance = table.Column<double>(type: "double precision", nullable: false),
+                    Difficulty = table.Column<string>(type: "text", nullable: false),
+                    Locations = table.Column<List<string>>(type: "text[]", nullable: false),
+                    UserId = table.Column<int>(type: "integer", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_BikeRoutes", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_BikeRoutes_Users_UserId",
+                        column: x => x.UserId,
+                        principalTable: "Users",
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(
@@ -49,37 +73,14 @@ namespace DALayer.Migrations
                         principalColumn: "Id");
                 });
 
-            migrationBuilder.CreateTable(
-                name: "Routes",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    Name = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
-                    Description = table.Column<string>(type: "text", nullable: false),
-                    Distance = table.Column<double>(type: "double precision", nullable: false),
-                    Difficulty = table.Column<string>(type: "text", nullable: false),
-                    Locations = table.Column<List<string>>(type: "text[]", nullable: false),
-                    UserId = table.Column<int>(type: "integer", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Routes", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Routes_Users_UserId",
-                        column: x => x.UserId,
-                        principalTable: "Users",
-                        principalColumn: "Id");
-                });
+            migrationBuilder.CreateIndex(
+                name: "IX_BikeRoutes_UserId",
+                table: "BikeRoutes",
+                column: "UserId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_FishingSpots_UserId",
                 table: "FishingSpots",
-                column: "UserId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Routes_UserId",
-                table: "Routes",
                 column: "UserId");
         }
 
@@ -87,10 +88,10 @@ namespace DALayer.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "FishingSpots");
+                name: "BikeRoutes");
 
             migrationBuilder.DropTable(
-                name: "Routes");
+                name: "FishingSpots");
 
             migrationBuilder.DropTable(
                 name: "Users");
